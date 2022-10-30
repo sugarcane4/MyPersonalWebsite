@@ -1,0 +1,45 @@
+// variables de fuente
+$font-weight: normal;
+$font-family: 'Roboto Mono', monospace;
+//color de fuente
+$white: #dbd8e3;
+$orange: #febe7e;
+//background color
+$purple: #2a2438;
+
+//body
+body {
+    background-color: $purple;
+    font-family: $font-family;
+}
+
+//description content
+.header {
+    color: $white;
+    width: 50%;
+    margin: 0 auto;
+    resize: vertical;
+    text-align: center;
+    border-bottom: 1px solid $white;
+    min-width: 600px;
+}
+
+.skilldescripcion {
+    color: $orange;
+    width: 50%;
+    margin: 0 auto;
+    resize: vertical;
+    text-align: center;
+    min-width: 600px;
+}
+
+.list {
+    width: 50%;
+    margin: 0 auto;
+    resize: vertical;
+    list-style-type: square;
+}
+
+.correo {
+    margin-left: 35px;
+}
